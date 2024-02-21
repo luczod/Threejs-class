@@ -1,5 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { experiences, skills } from '../constants';
+import { CTA } from '../components/CTA';
+import 'react-vertical-timeline-component/style.min.css';
 
 export function About() {
   return (
@@ -30,7 +32,7 @@ export function About() {
         </div>
       </div>
 
-      <div className="py-16">
+      <div className="py-8">
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
@@ -88,6 +90,8 @@ export function About() {
       </div>
 
       <hr className="border-slate-200" />
+
+      <CTA />
     </section>
   );
 }
