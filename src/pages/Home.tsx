@@ -68,9 +68,9 @@ export function Home() {
           />
           <Plane
             isRotating={isRotating}
+            scale={biplaneScale}
             position={biplanePosition}
             rotation={[0, 20.1, 0]}
-            scale={biplaneScale}
           />
         </Suspense>
       </Canvas>
