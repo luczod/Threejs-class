@@ -2,6 +2,7 @@ import { useAnimations, useGLTF } from '@react-three/drei';
 import { Euler, Vector3 } from '@react-three/fiber';
 import { useEffect, useRef } from 'react';
 import { Mesh } from 'three';
+
 type T3DModel = {
   isRotating: boolean;
   position: Vector3;
