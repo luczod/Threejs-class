@@ -7,9 +7,9 @@ import { Plane } from '../models/Plane';
 import Island from '../models/island';
 import { HomeInfo } from '../components/HomeInfo';
 
-const sakura = '../assets/sakura.mp3';
-const soundoff = '../assets/images/soundoff.png';
-const soundon = '../assets/images/soundon.png';
+const sakura = '../../assets/sakura.mp3';
+const soundoff = '../../assets/images/soundoff.png';
+const soundon = '../../assets/images/soundon.png';
 
 export function Home() {
   const audioRef = useRef<HTMLAudioElement>(new Audio(sakura));

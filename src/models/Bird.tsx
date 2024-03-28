@@ -3,10 +3,9 @@ import { useFrame } from '@react-three/fiber';
 import { useEffect, useRef } from 'react';
 import { Mesh } from 'three';
 
-// 3D Model from: https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042
 export function Bird() {
   const birdRef = useRef<Mesh>(null!);
-  const { scene, animations } = useGLTF<string>('src/assets/3d/bird.glb');
+  const { scene, animations } = useGLTF('../../assets/3d/bird.glb');
   const { actions } = useAnimations(animations, birdRef);
 
   useEffect(() => {

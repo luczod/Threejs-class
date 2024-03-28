@@ -7,10 +7,9 @@ type T3DModel = {
   isRotating: boolean;
 };
 
-// 3D Model from: https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042
 export function Sky({ isRotating }: T3DModel) {
-  const sky = useGLTF<string>('src/assets/3d/sky.glb');
   const skyRef = useRef<Mesh>(null!);
+  const sky = useGLTF('../../assets/3d/sky.glb');
 
   useFrame((_, delta) => {
     if (isRotating) {

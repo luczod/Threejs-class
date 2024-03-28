@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 
 import { projects } from '../constants';
 import { CTA } from '../components/CTA';
-import { arrow } from '../assets/icons';
 
 export function Projects() {
   return (
@@ -40,7 +39,11 @@ export function Projects() {
                 >
                   Live Link
                 </Link>
-                <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+                <img
+                  src="../../assets/icons/arrow.svg"
+                  alt="arrow"
+                  className="w-4 h-4 object-contain"
+                />
               </div>
             </div>
           </div>

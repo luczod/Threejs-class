@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { arrow } from '../assets/icons';
 
 type TProps = {
   currentStage: number | null;
@@ -25,7 +24,7 @@ export function HomeInfo({ currentStage }: TProps) {
 
         <Link to="/about" className="neo-brutalism-white neo-btn">
           Learn more
-          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+          <img src="../assets/icons/arrow.svg" alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -40,7 +39,7 @@ export function HomeInfo({ currentStage }: TProps) {
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
           Visit my portfolio
-          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+          <img src="../assets/icons/arrow.svg" alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -55,7 +54,7 @@ export function HomeInfo({ currentStage }: TProps) {
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">
           Let's talk
-          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+          <img src="../assets/icons/arrow.svg" alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );

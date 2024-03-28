@@ -31,7 +31,7 @@ function Island({
 }: T3DModel) {
   const islandRef = useRef<Group>(null!);
   const { gl, viewport } = useThree();
-  const { nodes, materials } = useGLTF('src/assets/3d/island.glb');
+  const { nodes, materials } = useGLTF('../../assets/3d/island.glb');
 
   const lastX = useRef(0);
   const rotationSpeed = useRef(0);
