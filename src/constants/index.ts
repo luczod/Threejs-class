@@ -1,33 +1,35 @@
 // Images
-const meta = '../../assets/images/meta.png';
-const shopify = '../../assets/images/shopify.png';
-const starbucks = '../../assets/images/starbucks.png';
-const tesla = '../../assets/images/tesla.png';
+// const tesla = '../assets/images/tesla.png';
+import { meta, shopify, starbucks, tesla } from '../assets/images';
+
 // Icons
-const car = '../../assets/icons/car.svg';
-const contact = '../../assets/icons/contact.svg';
-const css = '../../assets/icons/css.svg';
-const estate = '../../assets/icons/estate.svg';
-const express = '../../assets/icons/express.svg';
-const git = '../../assets/icons/git.svg';
-const github = '../../assets/icons/github.svg';
-const html = '../../assets/icons/html.svg';
-const javascript = '../../assets/icons/javascript.svg';
-const linkedin = '../../assets/icons/linkedin.svg';
-const mongodb = '../../assets/icons/mongodb.svg';
-const motion = '../../assets/icons/motion.svg';
-const mui = '../../assets/icons/mui.svg';
-const nextjs = '../../assets/icons/nextjs.svg';
-const nodejs = '../../assets/icons/nodejs.svg';
-const pricewise = '../../assets/icons/pricewise.svg';
-const react = '../../assets/icons/react.svg';
-const redux = '../../assets/icons/redux.svg';
-const sass = '../../assets/icons/sass.svg';
-const snapgram = '../../assets/icons/snapgram.svg';
-const summiz = '../../assets/icons/summiz.svg';
-const tailwindcss = '../../assets/icons/tailwindcss.svg';
-const threads = '../../assets/icons/threads.svg';
-const typescript = '../../assets/icons/typescript.svg';
+// const contact = '../assets/icons/contact.svg';
+import {
+  car,
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
+} from '../assets/icons';
 
 export const skills = [
   {

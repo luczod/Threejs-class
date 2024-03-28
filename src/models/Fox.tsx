@@ -18,9 +18,10 @@ type T3DModel = {
   rotation: Euler;
 };
 
+// 3D Model from: https://sketchfab.com/3d-models/fox-f372c04de44640fbb6a4f9e4e5845c78
 export function Fox({ currentAnimation, ...props }: T3DModel) {
   const groupRef = useRef<Group>(null!);
-  const { nodes, materials, animations } = useGLTF('../../assets/3d/fox.glb');
+  const { nodes, materials, animations } = useGLTF<string>('src/assets/3d/fox.glb');
   const { actions } = useAnimations(animations, groupRef);
 
   // This effect will run whenever the currentAnimation prop changes
